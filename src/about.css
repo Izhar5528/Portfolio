@@ -1,0 +1,48 @@
+.About{
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+
+.profile-image {
+    border-radius: 8px; /* Add border-radius to create rounded corners */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%; /* Ensure the image takes full width of its container */
+    max-width: 250px; /* Set a maximum width for the image */
+    height: auto; /* Maintain aspect ratio */
+    margin: 20px auto; /* Add margin for spacing */
+    display: block;
+    transition: transform 0.3s ease;
+  
+    /* Add hover effect */
+    &:hover {
+      transform: scale(1.05);
+      box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.2);
+    }
+}
+
+.read-more-button {
+    border: none;
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease, color 0.3s ease, border-radius 0.3s ease, border 0.3s ease;
+  
+    /* Add hover effect */
+    &:hover {
+      background-color: #fff;
+      color: #000;
+      border-radius: 50px; /* Adjust the value for the desired radius */
+      border: 2px solid #000; /* Add border on hover */
+    }
+}
+  
+  
+  
+
+  
+  
+  

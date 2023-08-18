@@ -1,0 +1,62 @@
+/* Portfolio.css */
+
+.portfolio-card {
+    border: none;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  
+    &:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    }
+  
+    .card-image {
+      height: 200px;
+      background-size: cover;
+      background-position: center;
+      border-top-left-radius: 8px;
+      border-top-right-radius: 8px;
+    }
+  
+    .card-body {
+      padding: 1.5rem;
+    }
+  
+    .card-title {
+      font-size: 1.25rem;
+      margin-bottom: 0.5rem;
+    }
+  
+    .card-text {
+      color: #777;
+    }
+  }
+  
+  /* Modal styles */
+  .modal-dialog {
+    max-width: 800px;
+  }
+  
+  .modal-content {
+    border: none;
+  }
+  
+  .modal-header {
+    border-bottom: none;
+  }
+  
+  .modal-body {
+    text-align: center;
+  }
+  
+  .modal-title {
+    font-size: 2rem;
+  }
+  
+  .img-fluid {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+  }
+
+   
